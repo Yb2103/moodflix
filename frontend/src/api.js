@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000/api'
+const BASE_URL = 'https://moodflix-backend-0ys5.onrender.com'
 
 export async function moodToGenres(mood) {
   const res = await fetch(`${BASE_URL}/mood-to-genres`, {
